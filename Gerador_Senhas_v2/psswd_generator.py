@@ -11,7 +11,7 @@ parser = argparse.ArgumentParser(description="GERADOR DE SENHAS RANDOMICAS!")
 parser.add_argument('-s', '--size', type=int, help='Quantidade de caracteres que tera a senha gerada.', default=8)
 parser.add_argument('-a', '--alpha', help='Utiliza apenas letras para gerar a senha.', default=alpha)
 parser.add_argument('-f', '--file', help='Nome da wordlist. Se nao especificado ira utilizar a wordlist no diretório '
-                                         'atual.', default='a.txt.tar')
+                                         'atual.', default='a.txt')
 args = parser.parse_args()
 
 
